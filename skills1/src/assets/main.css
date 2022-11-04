@@ -1,0 +1,349 @@
+body{
+  background-color: #000000;
+  max-width: 1920px;
+  max-height: 1080px;
+  font-style: normal;
+}
+.Roadmap{
+
+  position: absolute;
+  width: 218px;
+  height: 60px;
+
+  top: 89px;
+  left: 224px;
+
+
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+
+
+  color: #FFFFFF;
+}
+
+.isaac{
+
+  /* By Isaac N.C. Visit website */
+
+  position: absolute;
+  width: 200px;
+  height: 24px;
+
+  top: 190px;
+  left: 224px;
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+}
+
+
+/* div plates*/
+
+.Backlog{
+  width: 17,5%;
+  height: 455px;
+
+  left: 200px;
+  top: 240px;
+}
+
+.ToDo{
+  width: 17,5%;
+  height: 795px;
+
+  left: 650px;
+  top: 240px;
+}
+
+.InProgress{
+  width: 17,5%;
+  height: 840px;
+
+  left: 1100px;
+  top: 240px;
+}
+
+.Designed{
+  width: 17,5%;
+  height: 680px;
+
+  left: 1550px;
+  top: 240px;
+}
+
+
+
+
+/* Tickets BackLog*/
+
+.ticket1{
+  height: 25%;
+
+  background: #C440A1;
+
+  order: 1;
+}
+
+.ticket2{
+  height: 160px;
+
+  background: #6A6DCD;
+
+  order: 2;
+}
+
+/* Tickets To do */
+
+
+.ticket3{
+  height: 5%;
+
+  background: #D93535;
+
+  order: 1;
+  
+}
+.ticket4{
+  height: 140px;
+
+  background: #6A6DCD;
+
+  order: 2;
+}
+.ticket5{
+  height: 160px;
+
+  background: #6A6DCD;
+
+  order: 3;
+}
+.ticket6{
+  height: 120px;
+
+  background: #6A6DCD;
+
+  order: 4;
+}
+
+/* Tickets In progress */
+
+.ticket7{
+  height: 140px;
+
+  background: #D93535;
+
+  order: 1;
+}
+.ticket8{
+  height: 140px;
+
+  background: #D93535;
+
+  order: 2;
+}
+.ticket9{
+  height: 120px;
+
+  background: #307FE2;
+
+  order: 3;
+}
+.ticket10{
+  height: 140px;
+
+  background: #6A6DCD;
+
+  order: 4;
+}
+
+
+/* Tickets Designed */
+
+.ticket11{
+  height: 160px;
+
+
+  background: #00A88B;
+
+  order: 1;
+}
+.ticket12{
+  height: 160px;
+
+
+  background: #00A88B;
+
+  order: 2;
+}
+.ticket13{
+  height: 120px;
+
+  background: #307FE2;
+
+  order: 3;
+}
+
+/* ---------------------------------------------- */
+
+
+.Boxheader3{
+  margin-top: 4%;
+  left: 5px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Box button: */
+/* Backlog: */
+
+.BoxButton1{
+  width: 80px;
+  margin-top: 130px;
+}
+
+/* ---------------------------------------------- */
+
+/* To do: */
+.BoxButton2{
+  
+  width: 95px;
+  margin-top: 130px;
+}
+.BoxButton3{
+  width: 95px;
+  margin-top: 130px;
+}
+/* ---------------------------------------------- */
+
+/* In progress: */
+.BoxButton4{
+  width: 95px;
+  margin-top: 130px;
+}
+/* ---------------------------------------------- */
+
+/* Designed: */
+.BoxButton5{
+  width: 95px;
+  margin-top: 130px;
+}
+.BoxButton6{
+  width: 95px;
+  margin-top: 130px;
+}
+/* ---------------------------------------------- */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+  width: 320px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12), 0px 16px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+
+  flex: none;
+  flex-grow: 0;
+}
+
+.Headers{
+  width: 272px;
+  height: 24px;
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 80%;
+
+  color: #FFFFFF;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.Text{
+  
+  width: 272px;
+  height: 40px;
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: rgba(255, 255, 255, 0.75);
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.Buttons{
+  background-color: transparent;
+  text-align: center;
+  position: absolute;
+
+  height: 20px;
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: rgba(255, 255, 255, 0.75); 
+  border: 1px solid white;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.Titles{
+  width: 320px;
+  height: 44px;
+
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.Boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+
+  position: absolute;
+
+  background: #262626;
+  border-radius: 16px;
+}
